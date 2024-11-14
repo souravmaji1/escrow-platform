@@ -7,8 +7,8 @@ import Script from 'next/script';
 
 
 export const metadata = {
-  title: "ContractScan",
-  description: "DressMeUp is a Platform where you can Try costumes and dresses instantly without changing clothes. Our platform uses cutting-edge technology to let you visualize yourself in various outfits, saving time and enhancing your shopping experience",
+  title: "EasyTransact",
+  description: "EasyTransact",
 };
 
 export default function RootLayout({ children }) {
