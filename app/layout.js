@@ -1,6 +1,5 @@
 
 import "./globals.css";
-import { ClerkProvider } from "@clerk/nextjs";
 import { Toaster } from "@/components/ui/sonner";
 import Head from "next/head";
 import Script from 'next/script';
@@ -13,7 +12,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <ClerkProvider>
+   
       <html lang="en">
         <head>
         <meta name="google-site-verification" content="onvUyUpxsVaOX8GSrFN6nCQoO5AAcaxK9F_XGNtl9O4" />
@@ -36,6 +35,6 @@ export default function RootLayout({ children }) {
           {children}
         </body>
       </html>
-    </ClerkProvider>
+  
   );
 }
